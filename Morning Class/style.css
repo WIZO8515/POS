@@ -1,0 +1,203 @@
+body {
+
+  /* The CSS background properties are used to add background effects for elements. */
+  /* background-color: lightblue; */
+  background-image: url(obi.png);
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+  /* background: red, no-repeat, cover; */
+}
+
+#obi{
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+/* Here, all <p> elements on the page will be center-aligned, with a red text color:  */
+p {
+    text-align: center;
+    color: red;
+  }
+
+
+/* Opacity / Transparency */
+div {
+    background-color: green;
+    opacity: 0.3;
+}
+
+
+/* CSS Borders Style*/
+
+
+p.dotted{
+  border-style: dotted;
+}
+
+
+p.dashed {
+    border-style: dashed;
+}
+p.solid {
+    border-style: solid;
+}
+p.double {
+    border-style: double;
+}
+p.groove {
+    border-style: groove;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.inset {
+    border-style: inset;
+}
+p.outset {
+    border-style: outset;
+}
+p.none {
+    border-style: none;
+}
+p.hidden {
+    border-style: hidden;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+
+
+/* Border Property Color */
+
+p.one {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: green;
+  } 
+  
+  p.three {
+    border-style: dotted;
+    border-color: blue;
+  } 
+
+
+
+
+
+
+
+
+
+
+        /* Border Sides */
+  div.one{
+    border-bottom-style: dotted;
+  }
+  div.two{
+    border-top-style: dotted;
+  }
+
+  div.three{
+    border-right-style: solid;
+  }
+
+  div.four{
+    border-left-style: solid;
+  }
+  
+  
+  
+  
+  /* Border Shorthand */
+  .aptech{
+    border: 5px solid red;
+  }
+
+
+
+            /* CSS Rounded */
+
+p.normal {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+
+
+
+               /* CSS Margins */
+
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+
+                    /* CSS Margin Shorthand */
+  p {
+    margin: 25px 50px 75px 100px;
+  }
+
+
+                       /* CSS Padding */
+  div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+
+   /* CSS Padding Shorthand */
+
+   div {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
+
+
+   /* CSS Height/Width */
+  div {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+  }
